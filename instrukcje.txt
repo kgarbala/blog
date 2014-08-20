@@ -1,0 +1,3 @@
+django-admin.py startproject blog
+python manage.py startapp news
+python manage.py runserver
