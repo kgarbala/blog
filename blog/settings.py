@@ -35,7 +35,8 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles', 
+    'blog.news',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -66,9 +67,16 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+DATABASE_ENGINE = 'sqlite3'
+DATABASE_NAME = 'baza'
+DATABASE_USER = ''
+DATABASE_PASSWORD = ''
+DATABASE_HOST = ''
+DATABASE_PORT = ''
 
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'pl'
+TIME_ZONE = 'Europe/Warsaw'
+
 
 USE_I18N = True
 
